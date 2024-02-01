@@ -1,0 +1,93 @@
+*{
+    background-color: black;
+}
+
+.navbar-nav a{
+    color: white;
+}
+
+
+#message li:hover{
+    
+   i{
+    color: black;
+    background: white;
+   }
+}
+
+@media only screen and (min-width: 768px){
+
+
+    .navbar-nav{
+        margin-left: 8%;
+    }
+
+    .nav-item{
+        padding: 2% 9%;
+        border: 1px solid white;
+        margin: 3%;
+        font-weight: bold;
+    }
+
+    .nav-item:hover{
+        background-color: white;
+    }
+    .nav-item a:hover{
+        background-color: white;
+        font-weight: bold;
+    }
+
+    #message {
+        margin-left: 45%;
+        width: 10%;
+       
+    }
+
+    #message li{
+        padding: 5%;
+    }
+
+    #message a:hover{
+        color: black;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .nav-item a:hover{
+        background-color: white;
+        font-weight: bold;
+    }
+
+    #message{
+        padding: 2% 2% 2% 0%;
+    }
+
+    #message a:hover{
+        color: black;
+        
+    }
+
+    
+    #message a:hover{
+        background-color: red;
+        padding: 2%;
+    }
+
+    #message a:hover{
+        i{
+            background-color: red;
+        }
+    }
+}
+
+
+
+@media (max-width: 991.98px) {
+    section {
+      padding: calc(1.325rem + 0.9vw);
+      font-size: 1.125rem; /* 1.125rem is small enough, so RFS won't rescale this */
+    }
+  }
+

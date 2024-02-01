@@ -1,0 +1,13 @@
+button a{
+    color:rgb(115,115,115) ;
+}
+
+button a:hover{
+    color:black ;
+}
+
+.icons a{
+    color: white;
+    padding-right: 7px;
+}
+
